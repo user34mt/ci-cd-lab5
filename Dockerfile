@@ -7,4 +7,4 @@ COPY . .
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-CMD ["python", "-m", "pytest", "tests/"]
+CMD ["python", "src/main.py"]
